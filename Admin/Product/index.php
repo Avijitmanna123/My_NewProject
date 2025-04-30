@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 </head>
-<body style="background-color:green;">
+<body style="background-color:gray">
   <div class="conctainer">
    <div class="row">
  <div class=" col-md-6 m-auto border border-primary mt-5  bg-primary text-warning" >

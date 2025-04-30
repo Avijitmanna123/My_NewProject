@@ -53,16 +53,20 @@
 
 echo"
 <div class='col-md-3 col-lg-3' m-auto mb-3 my-5>
+ <form action='insertcart.php' method='POST'>
 <div class='card m-auto my-3' style='width: 20rem'>
   <img src ='../admin/product/$row[Product_Image]'class='card-img-top'style=' height:150px'>  
   <div class='card-body text-center'>
     <h5 class='card-title  text-primary fs-4'>$row[Product_Name]</h5>
     <p class='card-text   text-secondary fs-4 fw-bold'>RS:- $row[Produt_Price],00</p>
-    <input type='number' value= 'min='1' max='20'' placeholder='Quntity'><br><br>
-    <input type='submit' class='btn btn-danger text-white w-100' value='Add To Cart'><br><br> 
+    <input type='hidden' name='PNAME' value = '$row[Product_Name]'>
+    <input type='hidden' name='Pprice' value =' $row[Produt_Price]'>
+    <input type='number' name='quntity' value= 'min='1' max='20'' placeholder='Quntity'><br><br>
+    <input type='submit'Name='submitcart' class='btn btn-danger text-white w-100' value='Add To Cart'><br><br> 
      <a href='#'class=''>See More</a>
   </div>
 </div>
+</form>
 </div>
 ";
 }

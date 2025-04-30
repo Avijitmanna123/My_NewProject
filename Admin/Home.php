@@ -6,6 +6,17 @@
     <title>home page</title>
     <link rel="stylesheet"href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+   <style>
+       .image{
+        height: 651px;
+        width: 1705px;
+        background-color:navy;
+        margin-top: 10px;
+      
+        background-image: url("image.jpeg");
+        background-size: cover;
+       }
+    </style>
   </head>
   <?php
      session_start();
@@ -13,7 +24,7 @@
       header("location:form/login.php");
      }
      ?>
-<body style="background-color: greenyellow;">
+<body style="background-color: gray;">
      <!--NAV BAR-->
 <nav class="navbar navbar-light  bg-dark">
   <div class="container-fluid text-white">
@@ -29,7 +40,7 @@
   </div>
 </nav> 
     <!--NAV BAR END-->
-    <div class=" text-center  text-danger">
+    <div class=" text-center  text-warning  ">
      <h1> DASHBOARD</h1>
     </div>
     <div class=" text-center col-md-5 m-auto py-2" style="background-color: blueviolet;">
@@ -37,6 +48,9 @@
       <a href="user.php" class ="text-decoration-none text-white px-5 fw-bold">USER</a>
     </div>
      
+    <div class="image">
+
+    </div>
    
 </body>
 </html>

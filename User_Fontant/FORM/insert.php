@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
           alert('This Email Id already used');
           window.location.href='Registerpage.php';
         </script>
-        ";
+        ";  
     }   
     if(mysqli_num_rows($dub_Uname)) {
         echo "

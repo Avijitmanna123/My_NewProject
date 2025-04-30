@@ -11,8 +11,8 @@
     <?php
     session_start();
     $count=0;
-   if(isset($_SESSION['mycart']));
-   //  @$count=count($_SESSION['mycart']);
+  if(isset($_SESSION['mycart']));
+    $count=count($_SESSION['mycart']);
     ?>
     <!--NAVE BAR-->
     <nav class="navbar bg-info  ">

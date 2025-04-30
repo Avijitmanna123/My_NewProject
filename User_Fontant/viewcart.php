@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cart</title>
 </head>
-<body style="background-color:yellow;">
+<body style="background-color:gray;">
     <?php
       include 'header.php'
     
@@ -13,7 +13,7 @@
      <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center  rounder">
-                <h1 class=" text-primary my-3"> My Cart</h1>
+                <h1 class=" text-warning my-3"> My Cart</h1>
             </div>
         </div>
      </div>
@@ -49,7 +49,7 @@
                                 <td> $i </td>
                                 <td><input type='hidden' name='PNAME' value='$value[productname]'>$value[productname]</td>
                                 <td><input type='hidden' name='Pprice' value='$value[productprice]'>$value[productprice]</td>
-                                <td><input type='' name='quntity' value='$value[productquntity]'>$value[productquntity]</td>
+                                <td><input type='' name='quntity' value='$value[productquntity]'></td>
                                 <td> $Total</td>
                                 <td><button class='bg-danger' name='updatebtn'> UPDATE</button'> </td>
                                 <td><button class='bg-warning' name='deletebtn'>Delete</button</td>
