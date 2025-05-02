@@ -22,7 +22,7 @@
       <img src="446c3bb3405b406b.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="iphone 17 pro.avif" class="d-block w-100" alt="...">
+      <img src="phone1slide.webp" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">

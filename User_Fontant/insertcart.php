@@ -5,9 +5,9 @@
 
   session_start();
 
- $product_name=$_POST['PNAME'];
- $product_prrice=$_POST['Pprice'];
- $product_quntity=$_POST['quntity'];
+  $product_name=$_POST['PNAME'];
+  $product_prrice=$_POST['Pprice'];
+  $product_quntity=$_POST['quntity'];
 if(isset($_POST['submitcart'])){
   $check_items= array_column($_SESSION['mycart'],'productname');
 if(in_array($product_name, $check_items)){
@@ -19,10 +19,10 @@ if(in_array($product_name, $check_items)){
 else{
  $_SESSION['mycart'][]=array('productname'=>$product_name,
                                'productprice'=>$product_prrice,
-                                'productquntity'=>$product_quntity);
- //                               print_r( $_SESSION['mycart']);
-                              
-                                 header("location:viewcart.php");
+                              'productquntity'=>$product_quntity);
+                      //  print_r( $_SESSION['mycart']);
+                             
+                                header("location:viewcart.php");
 }
 }
 
