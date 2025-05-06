@@ -34,13 +34,15 @@
                     <tbody>
 
                     <?php
-                       
+                        
                         $Total=0;
                         $allTotal=0;
                         $i=0;
-                        if(isset($_SESSION['mycart'])){
-                            foreach($_SESSION['mycart'] as $key => $value){
-                                 $Total= $value['productprice']*$value['productquntity'];
+                        if(isset($_COOKIE['cart'])){
+                            $cookies_data=stripcslashes($_COOKIE['cart']);
+                            $cart_data=json_decode($cookies_data,true);
+                            foreach($cart_data as $key => $value){
+                                   $Total= $value['productprice']*$value['productquntity'];
                                  $allTotal += $value['productprice']*$value['productquntity'];$Total= $value['productprice']*$value['productquntity'];
                                  $i=$key+1;
                                 echo"
@@ -57,11 +59,12 @@
                              
                                 </tr>
                                 </form>
+                            
                                 ";
                             }
                         }
                       
-                     
+                    
                     ?>
 
                     </tbody>
