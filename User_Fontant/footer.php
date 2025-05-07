@@ -1,5 +1,15 @@
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-0  d-flex align-items-end" style="height:500px ;width:100%">
+<!--FOOTER PAGE -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOOTER</title>
+ </head>
+ <body>
+  
+ 
+<div class=" my-0 mb-0 " style="height:100% ;width:100%" >
 
   <!-- Footer -->
   <footer
@@ -72,16 +82,16 @@
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-white">MDBootstrap</a>
+              <a href="#!" class="text-white">New Model Laptop</a>
             </p>
             <p>
-              <a href="#!" class="text-white">MDWordPress</a>
+              <a href="#!" class="text-white">Mobail Phone</a>
             </p>
             <p>
-              <a href="#!" class="text-white">BrandFlow</a>
+              <a href="#!" class="text-white"> Smart Bags</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Bootstrap Angular</a>
+              <a href="#!" class="text-white">Watch</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -117,10 +127,10 @@
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-home mr-3"></i> Kolkata,700121,West bengal</p>
+            <p><i class="fas fa-envelope mr-3"></i> avijitymanna513@gmail.com</p>
             <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-print mr-3"></i> + 12 234 729 68</p>
           </div>
           <!-- Grid column -->
         </div>
@@ -132,10 +142,10 @@
     <!-- Copyright -->
     <div
          class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
+         style="background-color: rgba(0, 0, 0, 0.2);"
          >
       © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
+      <a class="text-white" href="index1.php"
          >mysmartshop.com</a
         >
     </div>
@@ -145,3 +155,5 @@
 
 </div>
 <!-- End of .container -->
+</body>
+</html>

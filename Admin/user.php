@@ -35,7 +35,7 @@
                    <td>$row[User_Name]</td>
                    <td>$row[User_Email]</td>
                    <td>$row[User_PhoneNumber]</td>
-                    <td><button class='bg-warning' name='deletebtn'>Delete</button</td>
+                    <td><a href='userdelete.php?ID=$row[ID]' class='btn btn-danger'>DELETE</a></td>
                    </tr>
                 ";
                 }

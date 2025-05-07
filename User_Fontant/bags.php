@@ -21,7 +21,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="cbag slider3..jpg" class="d-block w-100" style=" height:300px" alt="...">
+      <img src="cbag slider3..jpg" class="d-block w-100" style=" height:280px" alt="...">
     </div>
     <div class="carousel-item">
       <img src="phone1slide.webp" class="d-block w-100" alt="...">
